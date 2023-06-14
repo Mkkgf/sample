@@ -1,0 +1,43 @@
+.calc{
+    width: 30%;
+    margin-top: 200px;
+    justify-content: center;
+    /* border-radius: 20%; */
+
+}
+.display{
+    text-align: right;
+    color:black;
+    background-color:lightcoral;
+    padding :16px;
+
+}
+.display span {
+    font-size:14px;
+    color :lightcyan;
+}
+ .button {
+color:aliceblue;
+cursor: pointer;
+ }
+
+ .operators {
+    display:flex;
+ }
+ .operators button{
+    padding: 12px;
+    box-shadow: none;
+    flex :1 1 0%
+ }
+ .digits{
+    display:flex;
+    flex-wrap: wrap;
+ }
+
+ .digits button {
+    box-shadow: none;
+    padding: 12px;
+    flex: 1 1 33.33%;
+    background-color:lightcoral;
+
+ }
